@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+</head>
+<body>
+<div id="root"></div>
+<script src="react/react.js"></script>
+<script src="react/react-dom.js"></script>
+<script src="react/babel.min.js"></script>
+<script src="index.js?v=18" type="text/babel"></script>
+</body>
+<style>
+    table {
+        border-collapse: collapse;
+
+        cursor: pointer;
+    }
+    tr {
+        height: 25px;
+    }
+    tr.selected{
+        background-color: #9acfea;
+    }
+    th{
+        border: 1px solid black;
+        padding: 5px;
+    }
+    td {
+        border: 1px solid black;
+        padding: 0px;
+    }
+    td.selected {
+        background-color: #0f0f0f;
+        color: white;
+    }
+    .cell-view {
+        padding: 10px 5px 10px 5px;
+    }
+    .list-container {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        border: 0.5px solid black;
+    }
+    .list-container .list-item{
+        background-color: white;
+        padding: 3px;
+    }
+    .list-container .list-item.selected{
+        background-color: #9acfea;
+    }
+    .list-container .list-item:hover{
+        background-color: #99ee99;
+    }
+    .menu-container .main-line{
+        padding: 4px 0px 4px 0px
+    }
+    .menu-container .main-line button{
+        margin-right: 3px;
+    }
+    .open-close-button {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        font-size: 10px;
+        padding: 3px;
+        border-radius: 50%;
+        margin-right: 3px;
+        background-color: white;
+        display: inline;
+        color: black
+    }
+    .et-title {
+        font-size: 20px;
+    }
+</style>
+</html>
